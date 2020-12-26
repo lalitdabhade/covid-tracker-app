@@ -1,0 +1,34 @@
+body {
+    background-color: rgb(250, 250, 250);
+    overflow-x: hidden;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-direction: column; */
+}
+
+.appLogo {
+    justify-content: center;
+    display: flex;
+    padding: 10px;
+    background-color: darkcyan;
+}
+
+.contentCenter {
+    display: flex;
+    justify-content: center;
+}
+
+.arrangeChart {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.newsBlock {
+    overflow-x: auto;
+}
